@@ -1,5 +1,5 @@
 "use strict";
-function greedingFriends(...friend) {
-    return `hi my all friends ${friend}`;
+function greedingFriends(...friends) {
+    friends.forEach((friend) => console.log(`hi ${friend}`));
 }
-console.log(greedingFriends("akash", "batas", "megh", "katla", "argho"));
+console.log("history", greedingFriends("akash", "batas", "megh", "katla", "argho"));

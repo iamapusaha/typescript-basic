@@ -1,5 +1,8 @@
-function greedingFriends(...friend: string[]): string {
-  return `hi my all friends ${friend}`;
+function greedingFriends(...friends: string[]) {
+  friends.forEach((friend: string) => console.log(`hi ${friend}`));
 }
 
-console.log(greedingFriends("akash", "batas", "megh", "katla", "argho"));
+console.log(
+  "history",
+  greedingFriends("akash", "batas", "megh", "katla", "argho")
+);
