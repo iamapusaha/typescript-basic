@@ -4,4 +4,4 @@ function add(num1: number, num2: number): number {
 
 add(4, 78);
 
-const multiple = (num1, num2) => num1 * num2;
+const multiple = (num1: number, num2: number): number => num1 * num2;
